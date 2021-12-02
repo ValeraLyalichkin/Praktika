@@ -16,5 +16,22 @@ namespace Zadanie_1
         {
             InitializeComponent();
         }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void openToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            openFileDialog1.Filter = "Файлы pdf|*.pdf";
+            openFileDialog1.ShowDialog();
+            axAcroPDF1.LoadFile(openFileDialog1.FileName);
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
