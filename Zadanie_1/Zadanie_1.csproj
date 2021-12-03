@@ -54,10 +54,13 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+ zadanie_2
+=======
 zadanie_1.2
     <Compile Include="WinAPIClass.cs" />
 =======
 zadanie_1
+ master
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
